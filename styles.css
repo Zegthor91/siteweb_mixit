@@ -72,6 +72,28 @@ body {
     box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
 }
 
+/* Ajout d'espacement entre les projets */
+.projects-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espace entre chaque .project-card */
+}
+
+/* Optionnel : espacement interne dans chaque carte */
+.project-card {
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Ajout de marges autour des badges (liens <a> contenant <img>) */
+.project-tech a {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+
 /* Main Content */
 .main-container {
     max-width: 1200px;
