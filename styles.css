@@ -200,6 +200,13 @@ body {
     gap: 2rem;
 }
 
+.skills-list a {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+
 .contact-icon svg {
     width: 32px;
     height: 32px;
